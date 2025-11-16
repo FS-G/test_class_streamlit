@@ -21,7 +21,7 @@ os.environ['PINECONE_API_KEY'] = api_key
 
 # Define constants from environment variables
 namespace = os.getenv('namespace', 'wondervector5000')
-index_name = os.getenv('index_name', 'class1')
+index_name = os.getenv('index_name', 'ragclass')
 chunk_size = int(os.getenv('chunk_size', 1000))
 
 
